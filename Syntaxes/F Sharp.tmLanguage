@@ -97,24 +97,26 @@
 			<key>patterns</key>
 			<array>
 				<dict>
-					<key>captures</key>
-					<dict>
-						<key>1</key>
-						<dict>
-							<key>name</key>
-							<string>comment.block.empty.fsharp</string>
-						</dict>
-					</dict>
-					<key>match</key>
-					<string>\(\*\*?(\*)\)</string>
-					<key>name</key>
-					<string>comment.block.fsharp</string>
-				</dict>
-				<dict>
 					<key>begin</key>
 					<string>\(\*</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.begin.fsharp</string>
+						</dict>
+					</dict>
 					<key>end</key>
 					<string>\*\)</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.end.fsharp</string>
+						</dict>
+					</dict>
 					<key>name</key>
 					<string>comment.block.fsharp</string>
 					<key>patterns</key>
