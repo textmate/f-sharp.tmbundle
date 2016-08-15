@@ -442,12 +442,6 @@
 					<array>
 						<dict>
 							<key>match</key>
-							<string>\\$[ \t]*</string>
-							<key>name</key>
-							<string>punctuation.separator.string.ignore-eol.fsharp</string>
-						</dict>
-						<dict>
-							<key>match</key>
 							<string>\\([\\'ntbr]|u[a-fA-F0-9]{4}|u[a-fA-F0-9]{8})</string>
 							<key>name</key>
 							<string>constant.character.string.escape.fsharp</string>
