@@ -1,6 +1,5 @@
 # F Sharp Comments – Infininight 2008-03-21
 
 * In punctuation.separator.string.ignore-eol there is an unescaped $ with items after it, there can never be items after a $.
-* invalid.illeagal.character.string misspelled.
 * entity.name.binding should be entity.name.type.binding
 * A few punctuation scopes are missing, if you want me to add them for you note me.
