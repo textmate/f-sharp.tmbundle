@@ -67,7 +67,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>keyword.other.function-definition.fsharp</string>
+							<string>storage.type.function.fsharp</string>
 						</dict>
 					</dict>
 					<key>end</key>
